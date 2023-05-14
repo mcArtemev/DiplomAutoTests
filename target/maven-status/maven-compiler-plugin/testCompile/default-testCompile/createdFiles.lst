@@ -1,0 +1,17 @@
+ConstructorTests.class
+POM\BaseData.class
+POM\TestFixtures.class
+POM\NavbarElements.class
+POM\CabinetElements.class
+POM\Helpers\UserDeserializer.class
+POM\Helpers\Helpers.class
+POM\Helpers\UserSerializer.class
+POM\Helpers\User.class
+POM\RegistrationFormElements.class
+POM\ConstructorElements.class
+POM\Helpers\APICalls.class
+RegistrationTests.class
+PrivateCabinetTests.class
+LoginTests.class
+POM\RestorePasswordElements.class
+POM\LoginFormElements.class

@@ -1,0 +1,56 @@
+{
+  "uid" : "3096a218a8db7adb",
+  "name" : "OpenContsructorFromPrivateCabinetWithLogo",
+  "fullName" : "PrivateCabinetTests.OpenContsructorFromPrivateCabinetWithLogo",
+  "historyId" : "56e84c64d3acd56d3194022f969a0a5b",
+  "time" : {
+    "start" : 1684068586734,
+    "stop" : 1684068590458,
+    "duration" : 3724
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "OpenContsructorFromPrivateCabinetWithLogo"
+  }, {
+    "name" : "suite",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GAODCRA"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-GAODCRA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3096a218a8db7adb.json",
+  "parameterValues" : [ ]
+}

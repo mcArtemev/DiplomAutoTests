@@ -1,0 +1,178 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "openIngredientTabCheckIngredientSection[Для вкладки: By.xpath: //section[1]/div[1]/div[2], ингредиенты: By.xpath: //h2[contains(text(),'Соусы')]]",
+      "uid" : "61319d0e22483535",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068555083,
+        "stop" : 1684068557429,
+        "duration" : 2346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openIngredientTabCheckIngredientSection[Для вкладки: By.xpath: //section[1]/div[1]/div[3], ингредиенты: By.xpath: //h2[contains(text(),'Начинки')]]",
+      "uid" : "26d2c61a141b39da",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068557492,
+        "stop" : 1684068559109,
+        "duration" : 1617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openIngredientTabCheckIngredientSection[Для вкладки: By.xpath: //section[1]/div[1]/div[1], ингредиенты: By.xpath: //h2[contains(text(),'Булки')]]",
+      "uid" : "9ce36602a220eb55",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068559116,
+        "stop" : 1684068561724,
+        "duration" : 2608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "enterInAccountFromNavbarPrivateCabinet",
+      "uid" : "944d7c0c236f3a32",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068561737,
+        "stop" : 1684068566643,
+        "duration" : 4906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "enterInAccountFromRestorePasswordLinkSingIn",
+      "uid" : "542d112f401bbdda",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068566651,
+        "stop" : 1684068570406,
+        "duration" : 3755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "enterInAccountFromConstructorPageEnterInAccountButton",
+      "uid" : "692c5fe051487a49",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068570407,
+        "stop" : 1684068574476,
+        "duration" : 4069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "enterInAccountFromRegistrationFormLinkSingIn",
+      "uid" : "4f56fc132b68c4a5",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068574477,
+        "stop" : 1684068578325,
+        "duration" : 3848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OpenContsructorFromPrivateCabinetWithButton",
+      "uid" : "6769abbbb31656c",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068578327,
+        "stop" : 1684068582476,
+        "duration" : 4149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LogoutFromPrivateCabinet",
+      "uid" : "c2514042d8b2b1ee",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068582481,
+        "stop" : 1684068586733,
+        "duration" : 4252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OpenContsructorFromPrivateCabinetWithLogo",
+      "uid" : "3096a218a8db7adb",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068586734,
+        "stop" : 1684068590458,
+        "duration" : 3724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "EnterInPrivateCabinet",
+      "uid" : "53d0506e19815115",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068590460,
+        "stop" : 1684068594488,
+        "duration" : 4028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrateNewUserWithCorrectData",
+      "uid" : "cec881b04322b9a0",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068594490,
+        "stop" : 1684068598171,
+        "duration" : 3681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrateNewUserWithIncorrectPasswordLength3",
+      "uid" : "abc57730c5738a49",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684068598172,
+        "stop" : 1684068600236,
+        "duration" : 2064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be5e18e41bf32fca5cace70290d883bb"
+  } ]
+}

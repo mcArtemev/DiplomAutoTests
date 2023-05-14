@@ -11,7 +11,7 @@ public class RegistrationTests extends TestFixtures {
     private APICalls apiCalls = new APICalls();
 
     @Test
-    public void registrateNewUserWithCorrectData(){
+    public void registrateNewUserWithCorrectData() throws InterruptedException {
         name = "example";
         email = "example@example.com";
         password = "123456";
@@ -19,6 +19,12 @@ public class RegistrationTests extends TestFixtures {
         loginFormElements.clickSignUpLink();
         registrationFormElements.completeRegistrationForm(name, email, password);
         registrationFormElements.clickSignUpButton();
+        // Я пытался всячески обработать ожидание создание пользователя.
+        // При запуске всех тестов в данном классе - все норм проходит.
+        // А при запуске отчета Allure - падает на 401 для метода checkCreatedUser. Там какая то задержка с фронта
+        // Знаю что такие наглые слипы не очень хорошо делать
+        Thread.sleep(1000);
+
         isUserCreated = apiCalls.checkCreatedUser(new UserSerializer(email, password));
         Assert.assertTrue(isUserCreated==true);
     }

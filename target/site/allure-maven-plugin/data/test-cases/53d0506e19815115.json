@@ -1,0 +1,56 @@
+{
+  "uid" : "53d0506e19815115",
+  "name" : "EnterInPrivateCabinet",
+  "fullName" : "PrivateCabinetTests.EnterInPrivateCabinet",
+  "historyId" : "4fba3bb0ee5db4589b9e1cd650b75d32",
+  "time" : {
+    "start" : 1684068590460,
+    "stop" : 1684068594488,
+    "duration" : 4028
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "EnterInPrivateCabinet"
+  }, {
+    "name" : "suite",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GAODCRA"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-GAODCRA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53d0506e19815115.json",
+  "parameterValues" : [ ]
+}

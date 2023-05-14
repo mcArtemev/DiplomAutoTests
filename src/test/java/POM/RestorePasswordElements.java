@@ -1,6 +1,5 @@
 package POM;
 
-import POM.Helpers.Helpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

@@ -1,0 +1,56 @@
+{
+  "uid" : "944d7c0c236f3a32",
+  "name" : "enterInAccountFromNavbarPrivateCabinet",
+  "fullName" : "LoginTests.enterInAccountFromNavbarPrivateCabinet",
+  "historyId" : "25c2bffd70ccabb430ed9c0058e9af88",
+  "time" : {
+    "start" : 1684068561737,
+    "stop" : 1684068566643,
+    "duration" : 4906
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "enterInAccountFromNavbarPrivateCabinet"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GAODCRA"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-GAODCRA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "944d7c0c236f3a32.json",
+  "parameterValues" : [ ]
+}

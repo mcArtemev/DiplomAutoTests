@@ -1,0 +1,56 @@
+{
+  "uid" : "abc57730c5738a49",
+  "name" : "registrateNewUserWithIncorrectPasswordLength3",
+  "fullName" : "RegistrationTests.registrateNewUserWithIncorrectPasswordLength3",
+  "historyId" : "83e294e52be13ca37f430856cf12d5db",
+  "time" : {
+    "start" : 1684068598172,
+    "stop" : 1684068600236,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrateNewUserWithIncorrectPasswordLength3"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GAODCRA"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-GAODCRA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abc57730c5738a49.json",
+  "parameterValues" : [ ]
+}

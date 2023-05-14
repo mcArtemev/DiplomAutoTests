@@ -2,7 +2,11 @@ package POM.Helpers;
 
 import POM.BaseData;
 import io.restassured.response.Response;
+
+import java.util.concurrent.TimeUnit;
+
 import static io.restassured.RestAssured.given;
+import static org.awaitility.Awaitility.await;
 
 public class APICalls extends BaseData {
     public Response createUser(UserSerializer userJsonData) {
@@ -37,11 +41,11 @@ public class APICalls extends BaseData {
 
     public boolean checkCreatedUser(UserSerializer userJsonData) {
         Response response = loginUser(userJsonData);
-        response.then().assertThat().statusCode(200);
-        if(response.as(UserDeserializer.class).getUser().getEmail().equals(userJsonData.getEmail())) {
-            return true;
-        } else {
-            return false;
-        }
+        await().atMost(10, TimeUnit.SECONDS)
+                .until(() -> {
+                    response.then().assertThat().statusCode(200);
+                    return response.as(UserDeserializer.class).getUser().getEmail().equals(userJsonData.getEmail());
+                });
+        return response.as(UserDeserializer.class).getUser().getEmail().equals(userJsonData.getEmail());
     }
 }

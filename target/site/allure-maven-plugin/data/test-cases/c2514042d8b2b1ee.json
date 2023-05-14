@@ -1,0 +1,56 @@
+{
+  "uid" : "c2514042d8b2b1ee",
+  "name" : "LogoutFromPrivateCabinet",
+  "fullName" : "PrivateCabinetTests.LogoutFromPrivateCabinet",
+  "historyId" : "b61b3b902431a09023fbf6f289419ad6",
+  "time" : {
+    "start" : 1684068582481,
+    "stop" : 1684068586733,
+    "duration" : 4252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogoutFromPrivateCabinet"
+  }, {
+    "name" : "suite",
+    "value" : "PrivateCabinetTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GAODCRA"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-GAODCRA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2514042d8b2b1ee.json",
+  "parameterValues" : [ ]
+}
